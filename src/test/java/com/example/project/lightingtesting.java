@@ -11,4 +11,9 @@ public class lightingtesting {
     public void setUp(){
         grid = new lightcontroller(1000);
     }
+    @Test
+    public void testTurnOnSingleLight() {
+        grid.turnOn(0, 0, 0, 0);
+        assertEquals(1, grid.countLightsOn());
 }
+
