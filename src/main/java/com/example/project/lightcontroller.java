@@ -6,8 +6,6 @@ public class lightcontroller {
     public lightcontroller(int size){
         lights = new boolean [size][size];
     }
-    
 
 }
-
 
